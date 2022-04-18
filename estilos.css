@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style:  none;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+
+/* BARRA DE MENÚ INICIAL */
+
+#contenedor_menu{
+	position: relative;
+	width: 1366px;
+	height: 50px;
+}
+
+.imgMenu{
+	width: 25px;
+	height: 25px;
+}
+
+#menu{
+	position: absolute;
+	top: 10px;
+	right: 15px;
+	font-size: 13px;
+}
+
+#menu li{
+	display: inline;
+	margin: 0 10px;
+}
+
+#menu li a:hover{
+	text-decoration: underline;
+}
+
+/* LOGO GOOGLE */
+
+#contenedor_principal{
+	position: relative;
+	width: 1366px;
+	height: 560px;	
+	text-align: center;
+}
+
+#contenedor_logo{
+	position: relative;
+	width: 1366px;
+	height: 150px;
+}
+
+#logo{
+	position: absolute;
+	bottom: 10px;
+	left: 503px;	
+}
+
+#contenedor_formulario{
+	position: relative;
+	width: 1366px;
+	height: 150px;
+}
+
+#formulario_text{
+	position: absolute;	
+	top: 10px;
+	right: 442px;
+}
+
+#buscador_txt{
+	width: 550px;
+	height: 40px;
+}
+
+#formulario_botones{
+	position: absolute;
+	top: 70px;
+	right: 550px;
+}
+
+.btn{
+	width: 150px;
+	height: 40px;
+	margin: 7px;
+	background: #D6D1D0;
+}
+
+#footer_contenedor{
+	position: relative;
+	width: 1366px;
+	height: 85px;
+	background: #D6D1D0;
+}
+
+#foo1{
+	position: absolute;
+	top: 12px;
+	left: 20px;
+}
+
+#foo2{
+	position: absolute;
+	bottom: 12px;
+	left: 20px;
+}
+#foo2 a{
+	margin: 10px;
+	font-size: 15px;
+}
+
+#foo2 a:hover{
+	text-decoration: underline;
+}
+
+#foo3{
+	position: absolute;
+	bottom: 12px;
+	right: 22px;
+}
+
+#foo3 a{
+	margin: 10px;
+	font-size: 15px;
+}
+#foo3 a:hover{
+	text-decoration: underline;
+}
